@@ -1,0 +1,91 @@
+@media screen and (min-width: 1200px){
+    .hang1{
+        padding-top: 20px; padding-left: 100px; padding-right: 100px; display: flex; gap: 20px; 
+    }
+    .hang2{
+        padding-top: 20px; padding-left: 100px; padding-right: 100px; display: flex; gap: 20px;
+    }
+    .hang3{
+        padding-top: 20px; padding-left: 100px; padding-right: 100px; display: flex; gap: 20px; flex-wrap: wrap;
+    }
+
+    .logo{
+        color: red; font-weight: 600; font-size: 30px;
+    }
+    .nav{
+        height: 30px; background-color: red;color: white; width: 100%; display: flex; align-items: center; justify-content: center;
+    }
+    .main{
+        height: 200px; width: 70%; background-color: red; display: flex; align-items: center; justify-content: center; color: white;
+    }
+    .aside{
+        height: 200px; width: 34%; background-color: red; display: flex; align-items: center; justify-content: center; color: white;
+    }
+    .conlumn{
+        height: 150px; width: calc(33.8% - 20px); background-color: red; display: flex; align-items: center; justify-content: center; color: white;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .hang1{
+        padding-top: 20px; padding-left: 20px; padding-right: 20px; display: flex; gap: 20px;
+    }
+    .hang2{
+        padding-top: 20px; padding-left: 20px; padding-right: 20px; display: flex; gap: 20px;flex-direction: column; flex-wrap: wrap;
+    }
+    .hang3{
+        padding-top: 20px; padding-left: 20px; padding-right: 20px; display: flex; gap: 20px; flex-wrap: wrap;
+    }
+    .logo{
+        color: red; font-weight: 600; font-size: 30px;
+    }
+    .nav{
+        height: 30px; background-color: red;color: white; width: 100%; display: flex; align-items: center; justify-content: center;
+    }
+    .main{
+        height: 200px; width: 100%; background-color: red; display: flex; align-items: center; justify-content: center; color: white;
+    }
+    .aside{
+        height: 200px; width: 100%; background-color: red; display: flex; align-items: center; justify-content: center; color: white;
+    }
+    .conlumn{
+        height: 150px; width: calc(50% - 10px); background-color: red; display: flex; align-items: center; justify-content: center; color: white;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .hang1{
+         display: flex; gap: 20px; justify-content: space-between; align-items: center;
+    }
+    .hang2{
+        padding-top: 20px; display: flex; gap: 20px;flex-direction: column; flex-wrap: wrap; padding-left: 10px; padding-right: 10px;
+    }
+    .hang3{
+        padding-top: 20px;display: flex; flex-wrap: wrap; gap: 20px;
+    }
+    .logo{
+        color: red; font-weight: 600; font-size: 50px;
+    }
+    .nav{
+        height: 50px; background-color: red;color: white; width: 50px; display: flex; align-items: center; display: flex; flex-direction: column; border-radius: 5px;
+    }
+    .main{
+height: 200px; width: 100%; background-color: red; display: flex; align-items: center; justify-content: center; color: white;
+    }
+    .aside{
+        height: 200px; width: 100%; background-color: red; display: flex; align-items: center; justify-content: center; color: white;
+    }
+    .conlumn{
+        height: 150px; width: 100%; background-color: red; display: flex; align-items: center; justify-content: center; color: white;
+    }
+    .db{
+        background-color: red;
+        margin-top: 10px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+        width: 100%;
+    }
+}
